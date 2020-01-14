@@ -16,6 +16,10 @@
 		E8D9281223CD54CD0002537C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D9281023CD54CD0002537C /* LaunchScreen.storyboard */; };
 		E8D9281D23CD54CD0002537C /* CoreDataRelationShipDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9281C23CD54CD0002537C /* CoreDataRelationShipDemoTests.swift */; };
 		E8D9282823CD54CD0002537C /* CoreDataRelationShipDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9282723CD54CD0002537C /* CoreDataRelationShipDemoUITests.swift */; };
+		E8D9283923CD56C60002537C /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9283523CD56C60002537C /* User+CoreDataClass.swift */; };
+		E8D9283A23CD56C60002537C /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9283623CD56C60002537C /* User+CoreDataProperties.swift */; };
+		E8D9283B23CD56C60002537C /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9283723CD56C60002537C /* Car+CoreDataClass.swift */; };
+		E8D9283C23CD56C60002537C /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9283823CD56C60002537C /* Car+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		E8D9282323CD54CD0002537C /* CoreDataRelationShipDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataRelationShipDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D9282723CD54CD0002537C /* CoreDataRelationShipDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationShipDemoUITests.swift; sourceTree = "<group>"; };
 		E8D9282923CD54CD0002537C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D9283523CD56C60002537C /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E8D9283623CD56C60002537C /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E8D9283723CD56C60002537C /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E8D9283823CD56C60002537C /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 		E8D9280123CD54C70002537C /* CoreDataRelationShipDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E8D9283523CD56C60002537C /* User+CoreDataClass.swift */,
+				E8D9283623CD56C60002537C /* User+CoreDataProperties.swift */,
+				E8D9283723CD56C60002537C /* Car+CoreDataClass.swift */,
+				E8D9283823CD56C60002537C /* Car+CoreDataProperties.swift */,
 				E8D9280223CD54C70002537C /* AppDelegate.swift */,
-				E8D9280423CD54C70002537C /* SceneDelegate.swift */,
 				E8D9280623CD54C70002537C /* ViewController.swift */,
 				E8D9280823CD54C70002537C /* Main.storyboard */,
 				E8D9280E23CD54CD0002537C /* Assets.xcassets */,
+				E8D9280423CD54C70002537C /* SceneDelegate.swift */,
 				E8D9281023CD54CD0002537C /* LaunchScreen.storyboard */,
 				E8D9281323CD54CD0002537C /* Info.plist */,
 				E8D9280B23CD54C70002537C /* CoreDataRelationShipDemo.xcdatamodeld */,
@@ -262,10 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D9283C23CD56C60002537C /* Car+CoreDataProperties.swift in Sources */,
 				E8D9280723CD54C70002537C /* ViewController.swift in Sources */,
 				E8D9280323CD54C70002537C /* AppDelegate.swift in Sources */,
+				E8D9283A23CD56C60002537C /* User+CoreDataProperties.swift in Sources */,
+				E8D9283B23CD56C60002537C /* Car+CoreDataClass.swift in Sources */,
 				E8D9280523CD54C70002537C /* SceneDelegate.swift in Sources */,
 				E8D9280D23CD54C70002537C /* CoreDataRelationShipDemo.xcdatamodeld in Sources */,
+				E8D9283923CD56C60002537C /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
